@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E90B349EEEE240DF6BADBE6 /* Pods_Thinkr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8053FD9D7F9BEF5A27FD6610 /* Pods_Thinkr.framework */; };
+		78D60D841E451A00002BB12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D60D831E451A00002BB12D /* AppDelegate.swift */; };
+		78D60D861E451A00002BB12D /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D60D851E451A00002BB12D /* IntroVC.swift */; };
+		78D60D891E451A00002BB12D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D60D871E451A00002BB12D /* Main.storyboard */; };
+		78D60D8C1E451A01002BB12D /* Thinkr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78D60D8A1E451A01002BB12D /* Thinkr.xcdatamodeld */; };
+		78D60D8E1E451A01002BB12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D60D8D1E451A01002BB12D /* Assets.xcassets */; };
+		78D60D911E451A01002BB12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D60D8F1E451A01002BB12D /* LaunchScreen.storyboard */; };
+		78D60D9C1E451A01002BB12D /* ThinkrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D60D9B1E451A01002BB12D /* ThinkrTests.swift */; };
+		78D60DA71E451A01002BB12D /* ThinkrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D60DA61E451A01002BB12D /* ThinkrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78D60D981E451A01002BB12D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D60D781E451A00002BB12D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D60D7F1E451A00002BB12D;
+			remoteInfo = Thinkr;
+		};
+		78D60DA31E451A01002BB12D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D60D781E451A00002BB12D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D60D7F1E451A00002BB12D;
+			remoteInfo = Thinkr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13FC513C184AE95AA3DFE881 /* Pods-Thinkr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thinkr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thinkr/Pods-Thinkr.debug.xcconfig"; sourceTree = "<group>"; };
+		3C9A117EEA7C669FFA627E1A /* Pods-Thinkr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thinkr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thinkr/Pods-Thinkr.release.xcconfig"; sourceTree = "<group>"; };
+		78D60D801E451A00002BB12D /* Thinkr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thinkr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D60D831E451A00002BB12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78D60D851E451A00002BB12D /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		78D60D881E451A00002BB12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78D60D8B1E451A01002BB12D /* Thinkr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thinkr.xcdatamodel; sourceTree = "<group>"; };
+		78D60D8D1E451A01002BB12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78D60D901E451A01002BB12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78D60D921E451A01002BB12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D60D971E451A01002BB12D /* ThinkrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D60D9B1E451A01002BB12D /* ThinkrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkrTests.swift; sourceTree = "<group>"; };
+		78D60D9D1E451A01002BB12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D60DA21E451A01002BB12D /* ThinkrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D60DA61E451A01002BB12D /* ThinkrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkrUITests.swift; sourceTree = "<group>"; };
+		78D60DA81E451A01002BB12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8053FD9D7F9BEF5A27FD6610 /* Pods_Thinkr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thinkr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78D60D7D1E451A00002BB12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E90B349EEEE240DF6BADBE6 /* Pods_Thinkr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D60D941E451A01002BB12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D60D9F1E451A01002BB12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EA58EBB0A3CA7DEB94F5A2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8053FD9D7F9BEF5A27FD6610 /* Pods_Thinkr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78D60D771E451A00002BB12D = {
+			isa = PBXGroup;
+			children = (
+				78D60D821E451A00002BB12D /* Thinkr */,
+				78D60D9A1E451A01002BB12D /* ThinkrTests */,
+				78D60DA51E451A01002BB12D /* ThinkrUITests */,
+				78D60D811E451A00002BB12D /* Products */,
+				B9C3CBBBB6D9A952449A7BA9 /* Pods */,
+				4EA58EBB0A3CA7DEB94F5A2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78D60D811E451A00002BB12D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78D60D801E451A00002BB12D /* Thinkr.app */,
+				78D60D971E451A01002BB12D /* ThinkrTests.xctest */,
+				78D60DA21E451A01002BB12D /* ThinkrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78D60D821E451A00002BB12D /* Thinkr */ = {
+			isa = PBXGroup;
+			children = (
+				78D60D831E451A00002BB12D /* AppDelegate.swift */,
+				78D60D851E451A00002BB12D /* IntroVC.swift */,
+				78D60D871E451A00002BB12D /* Main.storyboard */,
+				78D60D8D1E451A01002BB12D /* Assets.xcassets */,
+				78D60D8F1E451A01002BB12D /* LaunchScreen.storyboard */,
+				78D60D921E451A01002BB12D /* Info.plist */,
+				78D60D8A1E451A01002BB12D /* Thinkr.xcdatamodeld */,
+			);
+			path = Thinkr;
+			sourceTree = "<group>";
+		};
+		78D60D9A1E451A01002BB12D /* ThinkrTests */ = {
+			isa = PBXGroup;
+			children = (
+				78D60D9B1E451A01002BB12D /* ThinkrTests.swift */,
+				78D60D9D1E451A01002BB12D /* Info.plist */,
+			);
+			path = ThinkrTests;
+			sourceTree = "<group>";
+		};
+		78D60DA51E451A01002BB12D /* ThinkrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78D60DA61E451A01002BB12D /* ThinkrUITests.swift */,
+				78D60DA81E451A01002BB12D /* Info.plist */,
+			);
+			path = ThinkrUITests;
+			sourceTree = "<group>";
+		};
+		B9C3CBBBB6D9A952449A7BA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13FC513C184AE95AA3DFE881 /* Pods-Thinkr.debug.xcconfig */,
+				3C9A117EEA7C669FFA627E1A /* Pods-Thinkr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78D60D7F1E451A00002BB12D /* Thinkr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D60DAB1E451A01002BB12D /* Build configuration list for PBXNativeTarget "Thinkr" */;
+			buildPhases = (
+				15BF7B8323D5A6553B6F19A3 /* [CP] Check Pods Manifest.lock */,
+				78D60D7C1E451A00002BB12D /* Sources */,
+				78D60D7D1E451A00002BB12D /* Frameworks */,
+				78D60D7E1E451A00002BB12D /* Resources */,
+				3E0847A727391210C603C8F7 /* [CP] Embed Pods Frameworks */,
+				DF71149BF8704B76BCCE1E1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thinkr;
+			productName = Thinkr;
+			productReference = 78D60D801E451A00002BB12D /* Thinkr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78D60D961E451A01002BB12D /* ThinkrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D60DAE1E451A01002BB12D /* Build configuration list for PBXNativeTarget "ThinkrTests" */;
+			buildPhases = (
+				78D60D931E451A01002BB12D /* Sources */,
+				78D60D941E451A01002BB12D /* Frameworks */,
+				78D60D951E451A01002BB12D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D60D991E451A01002BB12D /* PBXTargetDependency */,
+			);
+			name = ThinkrTests;
+			productName = ThinkrTests;
+			productReference = 78D60D971E451A01002BB12D /* ThinkrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78D60DA11E451A01002BB12D /* ThinkrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D60DB11E451A01002BB12D /* Build configuration list for PBXNativeTarget "ThinkrUITests" */;
+			buildPhases = (
+				78D60D9E1E451A01002BB12D /* Sources */,
+				78D60D9F1E451A01002BB12D /* Frameworks */,
+				78D60DA01E451A01002BB12D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D60DA41E451A01002BB12D /* PBXTargetDependency */,
+			);
+			name = ThinkrUITests;
+			productName = ThinkrUITests;
+			productReference = 78D60DA21E451A01002BB12D /* ThinkrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78D60D781E451A00002BB12D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TankDawgz;
+				TargetAttributes = {
+					78D60D7F1E451A00002BB12D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84X3AUB69L;
+						ProvisioningStyle = Automatic;
+					};
+					78D60D961E451A01002BB12D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84X3AUB69L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78D60D7F1E451A00002BB12D;
+					};
+					78D60DA11E451A01002BB12D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84X3AUB69L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78D60D7F1E451A00002BB12D;
+					};
+				};
+			};
+			buildConfigurationList = 78D60D7B1E451A00002BB12D /* Build configuration list for PBXProject "Thinkr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78D60D771E451A00002BB12D;
+			productRefGroup = 78D60D811E451A00002BB12D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78D60D7F1E451A00002BB12D /* Thinkr */,
+				78D60D961E451A01002BB12D /* ThinkrTests */,
+				78D60DA11E451A01002BB12D /* ThinkrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78D60D7E1E451A00002BB12D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D60D911E451A01002BB12D /* LaunchScreen.storyboard in Resources */,
+				78D60D8E1E451A01002BB12D /* Assets.xcassets in Resources */,
+				78D60D891E451A00002BB12D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D60D951E451A01002BB12D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D60DA01E451A01002BB12D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15BF7B8323D5A6553B6F19A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E0847A727391210C603C8F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thinkr/Pods-Thinkr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF71149BF8704B76BCCE1E1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thinkr/Pods-Thinkr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78D60D7C1E451A00002BB12D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D60D861E451A00002BB12D /* IntroVC.swift in Sources */,
+				78D60D841E451A00002BB12D /* AppDelegate.swift in Sources */,
+				78D60D8C1E451A01002BB12D /* Thinkr.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D60D931E451A01002BB12D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D60D9C1E451A01002BB12D /* ThinkrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D60D9E1E451A01002BB12D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D60DA71E451A01002BB12D /* ThinkrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78D60D991E451A01002BB12D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D60D7F1E451A00002BB12D /* Thinkr */;
+			targetProxy = 78D60D981E451A01002BB12D /* PBXContainerItemProxy */;
+		};
+		78D60DA41E451A01002BB12D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D60D7F1E451A00002BB12D /* Thinkr */;
+			targetProxy = 78D60DA31E451A01002BB12D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78D60D871E451A00002BB12D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D60D881E451A00002BB12D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78D60D8F1E451A01002BB12D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D60D901E451A01002BB12D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78D60DA91E451A01002BB12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78D60DAA1E451A01002BB12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78D60DAC1E451A01002BB12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13FC513C184AE95AA3DFE881 /* Pods-Thinkr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84X3AUB69L;
+				INFOPLIST_FILE = Thinkr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TankDawgz.Thinkr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		78D60DAD1E451A01002BB12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9A117EEA7C669FFA627E1A /* Pods-Thinkr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84X3AUB69L;
+				INFOPLIST_FILE = Thinkr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TankDawgz.Thinkr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		78D60DAF1E451A01002BB12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84X3AUB69L;
+				INFOPLIST_FILE = ThinkrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TankDawgz.ThinkrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thinkr.app/Thinkr";
+			};
+			name = Debug;
+		};
+		78D60DB01E451A01002BB12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84X3AUB69L;
+				INFOPLIST_FILE = ThinkrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TankDawgz.ThinkrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thinkr.app/Thinkr";
+			};
+			name = Release;
+		};
+		78D60DB21E451A01002BB12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 84X3AUB69L;
+				INFOPLIST_FILE = ThinkrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TankDawgz.ThinkrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Thinkr;
+			};
+			name = Debug;
+		};
+		78D60DB31E451A01002BB12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 84X3AUB69L;
+				INFOPLIST_FILE = ThinkrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TankDawgz.ThinkrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Thinkr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78D60D7B1E451A00002BB12D /* Build configuration list for PBXProject "Thinkr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D60DA91E451A01002BB12D /* Debug */,
+				78D60DAA1E451A01002BB12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D60DAB1E451A01002BB12D /* Build configuration list for PBXNativeTarget "Thinkr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D60DAC1E451A01002BB12D /* Debug */,
+				78D60DAD1E451A01002BB12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D60DAE1E451A01002BB12D /* Build configuration list for PBXNativeTarget "ThinkrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D60DAF1E451A01002BB12D /* Debug */,
+				78D60DB01E451A01002BB12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D60DB11E451A01002BB12D /* Build configuration list for PBXNativeTarget "ThinkrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D60DB21E451A01002BB12D /* Debug */,
+				78D60DB31E451A01002BB12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		78D60D8A1E451A01002BB12D /* Thinkr.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78D60D8B1E451A01002BB12D /* Thinkr.xcdatamodel */,
+			);
+			currentVersion = 78D60D8B1E451A01002BB12D /* Thinkr.xcdatamodel */;
+			path = Thinkr.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 78D60D781E451A00002BB12D /* Project object */;
+}
